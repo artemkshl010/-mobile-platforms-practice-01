@@ -162,11 +162,11 @@ Android та iOS мають різні архітектурні компонен
 
 10. Джерела
 
-1. Android Developers. Application fundamentals. https://developer.android.com/guide/components/fundamentals
-2. Android Developers. Activity lifecycle. https://developer.android.com/guide/components/activities/activity-lifecycle
-3. Android Open Source Project. Platform architecture. https://source.android.com/docs/core/architecture
-4. Apple Developer. App architecture. https://developer.apple.com/documentation/technologyoverviews/app-architecture
-5. Apple Developer. UIViewController. https://developer.apple.com/documentation/uikit/uiviewcontroller
-6. Apple Developer. SwiftUI. https://developer.apple.com/xcode/swiftui/
+* Android Developers. Application fundamentals. https://developer.android.com/guide/components/fundamentals
+* Android Developers. Activity lifecycle. https://developer.android.com/guide/components/activities/activity-lifecycle
+* Android Open Source Project. Platform architecture. https://source.android.com/docs/core/architecture
+* Apple Developer. App architecture. https://developer.apple.com/documentation/technologyoverviews/app-architecture
+* Apple Developer. UIViewController. https://developer.apple.com/documentation/uikit/uiviewcontroller
+* Apple Developer. SwiftUI. https://developer.apple.com/xcode/swiftui/
 
 Дата звернення до джерел: 22.10.2026.
