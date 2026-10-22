@@ -108,6 +108,7 @@ flowchart TD
 
 Схема спрощеного життєвого циклу:
 
+```mermaid
 flowchart TD
     A["onCreate()"] --> B["onStart()"]
     B --> C["onResume()"]
@@ -116,6 +117,7 @@ flowchart TD
     E --> F["onDestroy()"]
     E --> B
     D --> C
+```
 
 5.2. iOS
 
