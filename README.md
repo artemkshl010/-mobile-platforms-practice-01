@@ -143,3 +143,30 @@ flowchart TD
 * Втрата стану інтерфейсу. Наприклад, користувач повертається до екрана й виявляє, що введені дані зникли.
 * Витік пам’яті або зайві ресурси. Таймери, слухачі подій чи інші ресурси продовжують працювати після того, як екран більше не потрібен.
 * Зайві запити та некоректне оновлення інтерфейсу. Після повернення до екрана дані можуть завантажуватися повторно або відображатися неактуальними.
+
+8. Практичні наслідки для розробника
+
+Відмінності між Android та iOS впливають на щоденну роботу розробника.
+
+1. Різні інструменти розробки. Для Android зазвичай використовують Android Studio, Kotlin і Jetpack Compose. Для iOS — Xcode, Swift і SwiftUI. Тому розробнику потрібно опанувати різні інструменти та мови програмування.
+2. Різні підходи до керування життєвим циклом. В Android необхідно правильно обробляти життєвий цикл Activity та збереження стану під час зміни конфігурації. В iOS потрібно враховувати життєвий цикл UIViewController і стани сцен. Це впливає на збереження даних, виконання запитів і роботу інтерфейсу.
+3. Різні підходи до тестування. Android працює на пристроях багатьох виробників із різними характеристиками. В iOS апаратна та програмна екосистема більш контрольована. Тому для Android особливо важливо перевіряти сумісність із різними пристроями та версіями системи.
+
+9. Висновок
+
+Android та iOS мають різні архітектурні компоненти й механізми керування життєвим циклом екранів, але обидві платформи забезпечують розробникам інструменти для створення сучасних мобільних застосунків.
+
+Для розробки під Android необхідно розуміти роботу Activity, Android Runtime та Application Framework. Для iOS важливо знати принципи роботи UIKit або SwiftUI, системних фреймворків і життєвого циклу сцен.
+
+Отже, розробник повинен враховувати особливості кожної платформи, правильно керувати станом інтерфейсу, звільняти ресурси та тестувати застосунок у різних умовах.
+
+10. Джерела
+
+1. Android Developers. Application fundamentals. https://developer.android.com/guide/components/fundamentals
+2. Android Developers. Activity lifecycle. https://developer.android.com/guide/components/activities/activity-lifecycle
+3. Android Open Source Project. Platform architecture. https://source.android.com/docs/core/architecture
+4. Apple Developer. App architecture. https://developer.apple.com/documentation/technologyoverviews/app-architecture
+5. Apple Developer. UIViewController. https://developer.apple.com/documentation/uikit/uiviewcontroller
+6. Apple Developer. SwiftUI. https://developer.apple.com/xcode/swiftui/
+
+Дата звернення до джерел: 22.10.2026.
