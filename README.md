@@ -84,12 +84,14 @@ flowchart TD
 
 4.2. Архітектура iOS
 
+```mermaid
 flowchart TD
     A["Застосунки"] --> B["Cocoa Touch / UI Frameworks"]
     B --> C["Media"]
     C --> D["Core Services"]
     D --> E["Core OS"]
     E --> F["XNU Kernel"]
+```
 
 5. Життєвий цикл екрана
 
