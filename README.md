@@ -71,6 +71,7 @@ Applications	iOS-застосунки
 
 4.1. Архітектура Android
 
+```mermaid
 flowchart TD
     A["Застосунки"] --> B["Application Framework"]
     B --> C["Android Runtime (ART)"]
@@ -79,6 +80,7 @@ flowchart TD
     C --> F["Linux Kernel"]
     D --> F
     E --> F
+```
 
 4.2. Архітектура iOS
 
